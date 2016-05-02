@@ -1,0 +1,17 @@
+One similarity I noticed was the fact that Arduino uses functions, which, like Java or other C programming languages, allows the code to run sort of like a method. I also saw that they share some of the same datatypes, such as ints. Another similarity was the fact that the code would pass values, much like Java can. One difference was that I could not see any classes or objects, meaning that Arduino is not an object oriented program.
+
+For the projects we did, we did not have to make any code adaptions. However, there were some spots where we could have adapted the code, changing what the Arduino was going to do. We could have done something rather simple, such as changing the LED delay to 2000 milaseconds rather than 1000, or we could have changed the song on the buzzer by altering the notes played and the rests.
+	
+First, a circuit must have power, otherwise nothing would work in the circuit. A circuit must have a starting and ending point: This is what makes it a circuit. In between this loop, there can be any number of components included in the circuit, which will make use of the power and perform a function/action.
+
+For the computer to run the code, the computer first has to understand the code. The Arduino IDE converts the code written into a language that the computer can read and understand, allowing the programs to run. The program is compiled when the IDE changes it into the computer's language.
+
+The first project we did as a team was circuit 1, or the blinking LED. This circuit would do just as it said it would, which was making the LED blink. 
+This circuit taught us about the two functions "setup()" and "loop()", as well as the "pinMode()" function, which confingures the pins and their outputs. 
+We also learned about the HIGH and LOW settings concerning the LEDs, allowing them to turn the light on and off. 
+Finally, we learned about "delay" and how we can delay the code for a certain number of time. As for the actual board, we became accustomed to the different pins and their locations
+on the breadboard, as well as the different pins on the red board. After this circuit, we just built along these basic ideas, using the potentiometer, RGB LED, push buttons, 
+photo resistor, temperature sensor, servo, flex sensor, soft potentiometer, piezo buzzer, DC motor, and LCD. All of their corresponding circuits gave us more code to work with, 
+allowing many more things to be create using the code given. Now, we have a huge library of resources to create our independent project. 
+
+Our project is going to be a tuner where the piezo buzzer will project a note, and you can change the note with a button. The first part of the project will be creating this tuner, then having the buzzer detect noise being played by an instrument a displaying that frequency for comparrison. We will also try to add leds that will turn on and off depending on how high or low your frequency is in comparrison to the buzzer's frequency. We will alter code example 11 and change it so the buzzer projects one note until you hit the button, then the next note in the scale will play. We will also have to figure out how to get the buzzer to detect the noise using code, which will all have to be researched.
