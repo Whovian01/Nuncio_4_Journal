@@ -1,0 +1,8 @@
+The most difficult level from Human Resource Machine was level 11. In this level, you had to subtract the numbers in a certain 
+way in order to pass the level. The difficult part about this was trying to understand what it was asking and how to do it
+with the code. I finally figured it out by tinkering and asking others who already finished for tips.
+	
+I first went to the inbox and then copied it to box 0. Then, I grabbed the next number from the inbox and placed
+it in box 1. After that, the code takes the second number and subtracts the first from it, then places the result in the outbox.
+Afterwards, it goes and copies the first number and then subtracts the second from it, then places that in the outbox. The program then
+jumps to the beginning of the code over and over until all of the numbers are gone from te inbox.
