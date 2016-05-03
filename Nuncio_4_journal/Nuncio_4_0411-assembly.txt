@@ -1,7 +1,7 @@
 Assembly is a low-level symbolic code converted by an assembler. 
 
 Assembly is good for learning exactly how the code works, because
-you will be coding EXACTLY what you need. It is also for direct
+you will be coding exactly what you need. It is also for direct
 hardware manipulation.
 
 Assembly is a low-level language, while Java is a high-level 
@@ -14,5 +14,3 @@ having them focus on the intricaties of the machine's architecture.
 
 Java is a high level language. Java is all about fixing the problem, 
 rather actually coding into the hardware.
-
- 
