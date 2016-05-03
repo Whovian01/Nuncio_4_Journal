@@ -1,0 +1,10 @@
+
+The biggest challenge I solved in HRM was year 20, where you had to multiply the numbers. Trying to get the two numbers to 
+multiply when their was no command to do it automatically was a bit hard to figure out.
+	
+In year 20, to multiply the numbers I had to add the same number multiple times until it resembled the two numbers multiplied.
+I did this by first grabbing a number from the inbox, and copying them to box 0 and box 1. After that I grab the next number, and
+then copy that to box 5, and if the second number is zero, then I make it so I take the number to the outbox. Then, I subtract
+from the second number, and add the number from box 1 with box 2, and copy the sum back to box 1. I continue this until the number
+in box 5 becomes zero, and then copy the number from box 1 and put it in the outbox. Then I make the code jump back and start it
+over and over again.
